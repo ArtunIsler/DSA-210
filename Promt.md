@@ -2,7 +2,7 @@
 
 As required by academic integrity guidelines, AI tools were used in this project for coding support, debugging, report organization, and documentation assistance.
 
-### Claude (Anthropic)
+### Claude 
 
 Claude was primarily used to assist with Python coding and analysis workflow development.
 
@@ -23,7 +23,7 @@ Claude was primarily used to assist with Python coding and analysis workflow dev
 
 Claude outputs were used as coding assistance and were reviewed, modified, tested, and integrated into the final notebooks by the student.
 
-### ChatGPT (OpenAI)
+### ChatGPT 
 
 ChatGPT was mainly used for:
 

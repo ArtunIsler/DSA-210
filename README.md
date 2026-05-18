@@ -87,6 +87,15 @@ Different models (Linear Regression, Ridge, and Random Forest) are compared to f
 
 Overall, machine learning helps both in making predictions and understanding which factors influence game popularity the most.
 
+## Files
+1. Codes: You can find all codes in this file
+2. Visualization:  You can find visuals about Hypothesis, EDA visuals in this file.
+3. machine_learning: ML methods in this file also you can find detailed expalation about ML.
+4. reqirement.txt: important python feaatures in this file.
+5. GAMES_Data_Collection: Data cleaining and merging in this file.
+6. GAMES_EDA: EDA codes and visuals in this file.
+7. htpothesis file: You can find all hypothesis codes and visuals in together in this file.
+8. Promts: You can find AI prots and outputs in this file. 
    
 ## AI Usage
 I use Chatgpt and Claude for;

@@ -66,13 +66,13 @@ Data collection and cleaning involved the following steps:
 
 ---
 
-## Summary Statistics
+### Summary Statistics
 
 ![Summary Statistics](Visualization/image1.png)
 
 ---
 
-## Missing Values
+### Missing Values
 
 ![Missing Values](Visualization/image2.png)
 
@@ -261,4 +261,4 @@ I used AI for:
 
 - Steam Spy API Dataset:  
   https://www.kaggle.com/datasets/muhammadaqeelkabir/steam-games-dataset-steamspy-apiales
-Steam Spy API Dataset: https://www.kaggle.com/datasets/muhammadaqeelkabir/steam-games-dataset-steamspy-api
+

@@ -66,17 +66,32 @@ Data collection and cleaning involved the following steps:
 
 ---
 
-### Summary Statistics
+#### Summary Statistics
 
-![Summary Statistics](Visualization/image1.png)
+| Variable | Mean | Median | Max |
+|---|---|---|---|
+| Price | 23.46 | 0 | 100 |
+| Total Reviews | 1,802 | 24 | 8,815,087 |
+| Avg Playtime (min) | 968 | 301 | 263,340 |
+| Global Sales (M) | 0.59 | 0.14 | 9.72 |
 
 ---
 
-### Missing Values
+#### Missing Values
 
-![Missing Values](Visualization/image2.png)
+| Variable | Missing Values |
+|---|---|
+| owners | 74,031 |
+| avg_playtime_minutes | 74,031 |
+| user_score | 74,031 |
+| rating | 74,031 |
+| platform | 82,360 |
+| genre | 82,360 |
+| global_sales | 82,360 |
+| genres | 115 |
 
 ---
+
 
 ## 4. Exploratory Data Analysis
 

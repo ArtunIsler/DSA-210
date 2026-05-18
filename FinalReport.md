@@ -206,23 +206,53 @@ The models used the following features:
 
 ### Regression Model Results
 
-![Machine Learning Results 1](media/image4.png)
-
-![Machine Learning Results 2](media/image5.png)
+| Model | RMSE | MAE | R² |
+|---|---|---|---|
+| Linear Regression | 2.0425 | 1.6164 | 0.1276 |
+| Random Forest Regressor | 1.6292 | 1.2985 | 0.4449 |
 
 Random Forest significantly outperformed Linear Regression, achieving **R² = 0.4449** compared to **0.1276**.
 
-Average playtime dominated feature importance with **86.2%**, suggesting that how long players engage with a game is the strongest predictor of its popularity.
+---
+
+### Linear Regression Coefficients
+
+| Feature | Coefficient |
+|---|---|
+| price | 0.426148 |
+| avg_playtime_minutes | 0.347048 |
+| is_free | -0.181878 |
+| genre_encoded | -0.056435 |
+| rating | 0.000000 |
+
+---
+
+### Random Forest Feature Importances
+
+| Feature | Importance |
+|---|---|
+| avg_playtime_minutes | 0.862435 |
+| price | 0.098837 |
+| genre_encoded | 0.037426 |
+| is_free | 0.001303 |
+| rating | 0.000000 |
+
+Average playtime dominated feature importance with **86.2%**, suggesting that how long players engage with a game is the strongest predictor of popularity.
 
 ---
 
 ### K-Means Clustering
 
-![K-Means Clustering](media/image6.png)
+| Cluster | Avg. Price | Avg. Log Reviews |
+|---|---|---|
+| 0 | 0.12 | 3.16 |
+| 1 | 25.06 | 4.11 |
+| 2 | 50.46 | 4.17 |
+| 3 | 79.26 | 4.69 |
 
-- **Cluster 0:** Nearly all free games with lower popularity
-- **Clusters 1–3:** Paid games at increasing price points with increasing popularity
-- **Cluster 3:** Premium-priced games (average price ≈ $79) with the highest average popularity
+- **Cluster 0:** Nearly all free games with lower popularity  
+- **Clusters 1–3:** Paid games at increasing price points with increasing popularity  
+- **Cluster 3:** Premium-priced games ($79 avg) with the highest average popularity
 
 ## 7. Key Findings
 

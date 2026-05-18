@@ -95,7 +95,7 @@ Overall, machine learning helps both in making predictions and understanding whi
 5. GAMES_Data_Collection: Data cleaining and merging in this file.
 6. GAMES_EDA: EDA codes and visuals in this file.
 7. htpothesis file: You can find all hypothesis codes and visuals in together in this file.
-8. Promts: You can find why AI is used and examples of promts. 
+8. Promts: You can find why AI is used and promts. 
    
 ## AI Usage
 I use Chatgpt and Claude for;

@@ -108,20 +108,32 @@ Most games are free-to-play. Among paid games, prices are heavily right-skewed, 
 
 Review counts are extremely right-skewed. The top game (**Counter-Strike 2**) has **8,815,087 reviews**, while the median game has only **24 reviews**. Log transformation reveals a roughly normal distribution.
 
-### Top 10 Most Popular Games
+##### Top 10 Most Popular Games
 
-![Top 10 Most Popular Games](Visualization/image3.png)
-
-### Genre Analysis (Median Reviews)
-
-Free To Play games lead with a median of **69 reviews**, followed by:
-
-- RPG (**36**)
-- Simulation (**33**)
-- Adventure (**27**)
-- Strategy (**27**)
+| Game Title | Reviews |
+|---|---|
+| Counter-Strike 2 | 8,815,087 |
+| PUBG: BATTLEGROUNDS | 2,557,944 |
+| Dota 2 | 2,498,969 |
+| Grand Theft Auto V Legacy | 1,990,556 |
+| Terraria | 1,409,473 |
+| Tom Clancy's Rainbow Six® Siege X | 1,398,584 |
+| Rust | 1,227,784 |
+| Team Fortress 2 | 1,161,472 |
+| Garry's Mod | 1,159,707 |
+| Black Myth: Wukong | 1,150,098 |
 
 ---
+##### Genre Analysis (Median Reviews)
+
+| Genre | Median Reviews |
+|---|---|
+| Free To Play | 69 |
+| RPG | 36 |
+| Simulation | 33 |
+| Adventure | 27 |
+| Strategy | 27 |
+
 
 ## 5. Hypothesis Testing
 

@@ -15,6 +15,7 @@ Claude was primarily used to assist with Python coding and analysis workflow dev
   - Answer: GAMES_EDA.ipynb.
 
 - After data cleaning and merging I asked Claude to create hypothesis about popularity comparisons, price categories, playtime correlation, genre effects, and It suggest to create user score analysis."
+  
   -Answer: hypothesis file ( in this part we recreate H5 due to feedback)
 
 - In ML part I send our powerpoint to generate machine learning workflows using Linear Regression, Random Forest, and K-Means clustering for predicting video game popularity."
